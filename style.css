@@ -171,3 +171,14 @@ a {
     justify-content: center;
     color: #F9FAF8;
 }
+
+
+@media (max-width: 500px) {
+    .navbar {
+      height: 110px;
+    }
+  
+    .navbar .flex {
+      flex-direction: column;
+    }
+}
