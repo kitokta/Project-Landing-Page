@@ -93,3 +93,42 @@ a {
     font-weight: bolder;
     color: #F9FAF8;
 }
+
+/*SHOWCASE*/
+.showcase {
+    padding: 28px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.showcase h1 {
+ font-size: 36px;
+ font-weight: bolder;
+ color: #1f2937;
+ min-width: 320px;
+ margin-bottom: 24px;
+}
+
+.showcase-container {
+    display: flex;
+    gap: 48px;
+}
+
+.showcase-text {
+    display: flex;
+    flex: 1;
+    gap: 82px;
+}
+
+#icon1,
+#icon2,
+#icon3,
+#icon4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
