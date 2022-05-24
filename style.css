@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-
   body {
     font-family: 'Lato', sans-serif;
     min-height: 100vh;
   }
 
+  * {
+      margin: 0;;
+  }
 
   /*navbar*/
 .navbar {
@@ -24,6 +21,7 @@
 .navbar h3 {
     color: #fff;
     border-bottom: 2px #FFEA00 solid;
+    flex-shrink: 0;
 }
 
 .navbar a:hover {
@@ -96,7 +94,8 @@ a {
 
 /*SHOWCASE*/
 .showcase {
-    padding: 28px 200px;
+    padding: 36px 200px;
+    margin: 28px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,4 +130,44 @@ a {
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+    gap: 5px;
+    margin: 0;
+}
+
+.quote h2 {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    min-width: 600px;
+    max-width: 1000px;
+}
+
+.h3-container {
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-end;
+    flex: 1;
+    margin-right: 100px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #1f2937;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
 }
