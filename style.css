@@ -153,6 +153,7 @@ a {
     color: #1f2937;
     min-width: 600px;
     max-width: 1000px;
+    width: clamp(600px, 50%, 1000px);
 }
 
 .h3-container {
@@ -160,7 +161,8 @@ a {
     font-weight: bold;
     align-self: flex-end;
     flex: 1;
-    margin-right: 100px;
+    margin-right: 200px;
+
 }
 
 /*Footer*/
