@@ -16,6 +16,8 @@
     align-items: center;
     padding: 8px 200px;
     gap: 16px;
+    position: sticky;
+    top: 0;
 }
 
 .navbar h3 {
